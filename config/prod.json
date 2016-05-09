@@ -1,0 +1,34 @@
+{
+  "alias": [
+    "prod",
+    "production"
+  ],
+  "mongo": {
+    "url": ""
+  },
+  "beanstalkd": {
+    "host": "",
+    "port": ""
+  },
+  "logger": {
+    "name": "rate-prod",
+    "streams": [
+      {
+        "level": "info",
+        "path": "./logs/info.log"
+      },
+      {
+        "level": "error",
+        "path": "./logs/error.log"
+      }
+    ]
+  },
+  "handler": {
+    "exchange_rate": {
+      "success_limit": 10,
+      "fail_limit": 3,
+      "success_delay": 60,
+      "fail_delay": 3
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "alias": [
+    "dev",
+    "develop"
+  ],
+  "mongo": {
+    "url": "mongodb://127.0.0.1:27017/rate"
+  },
+  "beanstalkd": {
+    "host": "127.0.0.1",
+    "port": 11300
+  },
+  "logger": {
+    "name": "rate-dev",
+    "level": "debug"
+  },
+  "handler": {
+    "exchange_rate": {
+      "success_limit": 10,
+      "fail_limit": 3,
+      "success_delay": 60,
+      "fail_delay": 3
+    }
+  }
+}

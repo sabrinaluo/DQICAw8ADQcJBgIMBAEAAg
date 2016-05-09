@@ -6,3 +6,6 @@ npm-debug.log
 
 # dependencies
 node_modules/
+
+# app log
+logs/
