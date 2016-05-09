@@ -1,0 +1,8 @@
+# IDE
+.idea/
+
+# sys log
+npm-debug.log
+
+# dependencies
+node_modules/
