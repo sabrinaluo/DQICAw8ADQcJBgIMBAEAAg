@@ -30,7 +30,9 @@
     "bluebird": "^3.3.5",
     "bunyan": "^1.8.1",
     "co": "^4.6.0",
+    "fivebeans": "^1.4.0",
     "mongoose": "^4.4.16",
-    "nconf": "^0.8.4"
+    "nconf": "^0.8.4",
+    "shortid": "^2.2.6"
   }
 }
