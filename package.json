@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sabrinaluo/DQICAw8ADQcJBgIMBAEAAg#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
     "eslint": "^2.9.0",
     "eslint-config-aftership": "^2.3.3",
     "gulp": "^3.9.1",
@@ -29,6 +30,7 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "bunyan": "^1.8.1",
+    "cheerio": "^0.20.0",
     "co": "^4.6.0",
     "fivebeans": "^1.4.0",
     "mongoose": "^4.4.16",
