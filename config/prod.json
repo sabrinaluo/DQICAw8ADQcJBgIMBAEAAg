@@ -4,11 +4,11 @@
     "production"
   ],
   "mongo": {
-    "url": ""
+    "url": "mongodb://sabrina:12qwaszx@ds037272.mlab.com:37272/rate"
   },
   "beanstalkd": {
-    "host": "",
-    "port": ""
+    "host": "challenge.aftership.net",
+    "port": 11300
   },
   "logger": {
     "name": "rate-prod",
