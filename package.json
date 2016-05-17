@@ -28,7 +28,8 @@
     "gulp-load-plugins": "^1.2.2",
     "istanbul": "1.0.0-alpha.2",
     "mocha": "^2.4.5",
-    "rewire": "^2.5.1"
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.4"
   },
   "dependencies": {
     "bluebird": "^3.3.5",
