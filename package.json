@@ -4,7 +4,7 @@
   "description": "a beanstalkd exchange rate worker",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "gulp test",
     "cov": "istanbul cover _mocha -- --opts ./test/mocha.opts",
     "start": "node index.js | bunyan -o short"
   },
@@ -26,10 +26,12 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-load-plugins": "^1.2.2",
+    "gulp-mocha": "^2.2.0",
     "istanbul": "1.0.0-alpha.2",
     "mocha": "^2.4.5",
     "rewire": "^2.5.1",
-    "sinon": "^1.17.4"
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
     "bluebird": "^3.3.5",

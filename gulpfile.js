@@ -11,6 +11,16 @@ gulp.task('lint', () => {
 		.pipe($.eslint.format());
 });
 
+gulp.task('test', () => {
+	return gulp.src('./test/**.js')
+		.pipe($.mocha())
+		.once('error', () => {
+			process.exit(1);
+		}).once('end', function () {
+			process.exit(0);
+		});
+});
+
 gulp.task('watch', () => {
 	gulp.watch(files, ['lint']);
 });
